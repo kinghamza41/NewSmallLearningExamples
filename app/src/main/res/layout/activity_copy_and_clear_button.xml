@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CopyAndClearButton">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Text"
+        android:layout_marginTop="100sp"
+        android:id="@+id/edt1"
+        android:textSize="23sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt1"
+        android:padding="20sp"
+        android:layout_marginTop="30sp"
+        android:textColor="@color/colorAccent"
+        android:text="Copy"
+        android:layout_marginLeft="35sp"
+        android:id="@+id/btncopy"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt1"
+        android:layout_marginLeft="230sp"
+        android:layout_marginTop="30sp"
+        android:padding="20sp"
+        android:text="Clear/Delete"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:id="@+id/btnclear"/>
+
+</RelativeLayout>

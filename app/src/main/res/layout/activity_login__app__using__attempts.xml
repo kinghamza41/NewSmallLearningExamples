@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login_App_Using_Attempts">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Login_Page"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name :"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="50sp"
+        android:textSize="20sp"
+        android:id="@+id/user_name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-40sp"
+        android:layout_marginLeft="180sp"
+        android:layout_marginRight="10sp"
+        android:hint="Enter User Name"
+        android:id="@+id/enter_user"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password :"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="50sp"
+        android:textSize="20sp"
+        android:id="@+id/password" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-40sp"
+        android:layout_marginLeft="180sp"
+        android:layout_marginRight="10sp"
+        android:hint="Enter User Password"
+        android:inputType="textPassword"
+        android:id="@+id/enter_pass"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attempts :"
+        android:textSize="20sp"
+        android:id="@+id/attempts"
+        android:layout_marginTop="50sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20sp"
+        android:id="@+id/attempts_view"
+        android:layout_marginTop="-29sp"
+        android:layout_marginLeft="130sp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="155sp"
+        android:text="Submit"
+        android:textSize="18sp"
+        android:id="@+id/login_info_btn"/>
+
+
+
+</LinearLayout>
